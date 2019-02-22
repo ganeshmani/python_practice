@@ -32,3 +32,6 @@
 
     Randomly generate two lists to test this
     Write this in one line of Python (don’t worry if you can’t figure this out at this point - we’ll get to it soon)
+
+
+6.  Ask the user for a string and print out whether this string is a palindrome or not. (A palindrome     is a string that reads the same forwards and backwards.)    
