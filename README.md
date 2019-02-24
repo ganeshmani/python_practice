@@ -37,3 +37,5 @@
 6.  Ask the user for a string and print out whether this string is a palindrome or not. (A palindrome     is a string that reads the same forwards and backwards.)  
 
 7. Let’s say I give you a list saved in a variable: a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]. Write    one line of Python that takes this list a and makes a new list that has only the even elements of     this list in it.
+
+8. Make a two-player Rock-Paper-Scissors game. (Hint: Ask for player plays (using input), compare them, print out a message of congratulations to the winner, and ask if the players want to start a new game)
