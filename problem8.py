@@ -1,15 +1,18 @@
 
 
-print("Enter Player1 name")
-user1 = input()
-print("Enter Player2 name")
-user2 = input()
+def getUsers():
+    print("Enter Player1 name")
+    user1 = input()
+    print("Enter Player2 name")
+    user2 = input()
 
 
-print("Select Rock,Paper or scissors "+user1)
-u1 = input()
-print("select Rock,Paper or scissors "+user2)
-u2 = input()
+
+    print("Select Rock,Paper or scissors "+user1)
+    u1 = input()
+    print("select Rock,Paper or scissors "+user2)
+    u2 = input()
+    return user1,user2,u1,u2
 
 
 def selectWinner(u1,u2,user1,user2):
@@ -19,7 +22,12 @@ def selectWinner(u1,u2,user1,user2):
         print(user1+" wins")
     elif (u2 == 'Rock' and u1 == 'scissors') or (u2 == 'scissors' and u1 == 'Paper') or (u2 == 'Paper' and u1 == 'Rock'):
         print(user2+" wins")
+    print("Start a new Game?. Y or N")
+    v = str(input())
+    if(v == 'Y'):
+        user1,user2,u1,u2 = getUsers()
+        selectWinner(u1, u2, user1, user2)
 
-
+user1,user2,u1,u2 = getUsers()
 selectWinner(u1,u2,user1,user2)
 
