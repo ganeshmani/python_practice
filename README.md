@@ -41,3 +41,36 @@
 8. Make a two-player Rock-Paper-Scissors game. (Hint: Ask for player plays (using input), compare them, print out a message of congratulations to the winner, and ask if the players want to start a new game)
 
 9. Generate a random number between 1 and 9 (including 1 and 9). Ask the user to guess the number, then tell them whether they guessed too low, too high, or exactly right.
+
+10. Take two lists, say for example these two:
+
+	    a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+	    b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    and write a program that returns a list that contains only the elements that are common between the lists (without duplicates). Make sure your program works on two lists of different sizes. Write this in one line of Python using at least one list comprehension. 
+ 
+11. you are given a dataset of N students belonging to the same class.
+    The data contains name of the student followed by marks they scored in five subjects which are Physics, Chemsistry, Maths, English, Hindi.
+    Your task is find the average marks of the class for each individual subject.
+
+    Input Format
+        First line will contain an Integer N, denoting  the number of students in the class.
+        Each of the Next N lines will contain a string S denoting the student name, followed by five integers m1, m2, m3, m4, m5 denoting the marks scored in each subject.
+
+    Constraints
+        1 <= N <= 10^3
+        1 <= S <= 10^2
+        0 <= m1, m2, m3, m4, m5 <= 100
+
+    Output Format
+        You have to print average marks upto two decimal places for each subject followed by a space. 
+
+    Sample TestCase 1
+    
+        Input
+        2
+
+        arpit 100 75 40 56 53
+        anushka 100 100 76 100 100
+        
+        Output
+        100.00 87.50 58.00 78.00 76.50    
